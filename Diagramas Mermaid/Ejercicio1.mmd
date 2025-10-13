@@ -1,0 +1,33 @@
+flowchart TD
+
+A([Inicio]) --> B[Declarar Pila<char> miPila]
+B --> C[Leer texto del usuario]
+C --> D[Llamar a VerificarTexto()]
+
+D --> E{VerificarTexto()}
+E -->|true| F[Mostrar "La cadena de texto está balanceada"]
+E -->|false| G[Mostrar "La cadena de texto no está balanceada"]
+F --> H([Fin])
+G --> H
+
+subgraph "Función VerificarTexto()"
+    V1[Recorrer cada carácter de 'texto'] --> V2{¿Es símbolo de apertura o cierre?}
+    V2 -->|No| V1
+    V2 -->|Sí| V3{¿Es símbolo de apertura?}
+    V3 -->|Sí| V4[Llamar miPila.Push(caracter)]
+    V3 -->|No| V5[miPila.Pop() → ultimoSimboloApertura]
+    V5 --> V6{Coinciden(ultimoSimboloApertura, texto[i])}
+    V6 -->|No| V7[return false]
+    V6 -->|Sí| V1
+
+    V1 --> V8{miPila.EstaVacia()?}
+    V8 -->|Sí| V9[return true]
+    V8 -->|No| V10[return false]
+end
+
+subgraph "Función Coinciden(apertura, cierre)"
+    C1{¿Pareja correcta?} -->|Sí| C2[return true]
+    C1 -->|No| C3[return false]
+end
+
+
