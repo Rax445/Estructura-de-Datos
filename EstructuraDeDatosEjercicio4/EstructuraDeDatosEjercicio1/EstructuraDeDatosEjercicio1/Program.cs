@@ -40,6 +40,11 @@
                         continue;
                     }
 
+                    if (miPila.EstaVacia())
+                    {
+                        return false;
+                    }
+
                     char ultimoSimboloApertura = miPila.Pop();
 
                     if (!Coinciden(ultimoSimboloApertura, texto[i]))
