@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 OPR/124.0.0.0" version="29.2.1">
   <diagram name="Página-1" id="NByN5eMs8gt2s9mdmEka">
-    <mxGraphModel dx="1236" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="997" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,8 +176,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vdi6AuE_Tx-7lV5R8BBg-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#74a4ff;fillColor=#CCDEFF;strokeWidth=2;fontStyle=1;gradientColor=none;" value="arr[k++] = izquierda[i++]" vertex="1">
-          <mxGeometry height="40" width="155" x="1160" y="450" as="geometry" />
+        <mxCell id="vdi6AuE_Tx-7lV5R8BBg-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#74a4ff;fillColor=#CCDEFF;strokeWidth=2;fontStyle=1;gradientColor=none;" value="arr[k] = izquierda[i]&lt;div&gt;k++&lt;/div&gt;&lt;div&gt;i++&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="155" x="1160" y="440" as="geometry" />
         </mxCell>
         <mxCell id="vdi6AuE_Tx-7lV5R8BBg-50" edge="1" parent="1" source="vdi6AuE_Tx-7lV5R8BBg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="vdi6AuE_Tx-7lV5R8BBg-37">
           <mxGeometry relative="1" as="geometry">
@@ -188,8 +188,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vdi6AuE_Tx-7lV5R8BBg-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#74a4ff;fillColor=#CCDEFF;strokeWidth=2;fontStyle=1;gradientColor=none;" value="arr[k++] = derecha[j++]" vertex="1">
-          <mxGeometry height="40" width="155" x="810" y="450" as="geometry" />
+        <mxCell id="vdi6AuE_Tx-7lV5R8BBg-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#74a4ff;fillColor=#CCDEFF;strokeWidth=2;fontStyle=1;gradientColor=none;" value="arr[k] = derecha[j]&lt;div&gt;k++&lt;/div&gt;&lt;div&gt;j++&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="155" x="810" y="440" as="geometry" />
         </mxCell>
         <mxCell id="vdi6AuE_Tx-7lV5R8BBg-48" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" value="F" vertex="1">
           <mxGeometry height="30" width="40" x="930" y="360" as="geometry" />
@@ -218,8 +218,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vdi6AuE_Tx-7lV5R8BBg-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#74a4ff;fillColor=#CCDEFF;strokeWidth=2;fontStyle=1;gradientColor=none;" value="arr[k++] = izquierda[i++]" vertex="1">
-          <mxGeometry height="40" width="155" x="982.5" y="760" as="geometry" />
+        <mxCell id="vdi6AuE_Tx-7lV5R8BBg-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#74a4ff;fillColor=#CCDEFF;strokeWidth=2;fontStyle=1;gradientColor=none;" value="arr[k] = izquierda[i]&lt;div&gt;&lt;div&gt;k++&lt;/div&gt;&lt;div&gt;i++&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="155" x="982.5" y="760" as="geometry" />
         </mxCell>
         <mxCell id="vdi6AuE_Tx-7lV5R8BBg-57" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" value="V" vertex="1">
           <mxGeometry height="30" width="26" x="1070" y="720" as="geometry" />
@@ -245,8 +245,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vdi6AuE_Tx-7lV5R8BBg-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#74a4ff;fillColor=#CCDEFF;strokeWidth=2;fontStyle=1;gradientColor=none;" value="arr[k++] = derecha[j++]" vertex="1">
-          <mxGeometry height="40" width="155" x="982.5" y="1020" as="geometry" />
+        <mxCell id="vdi6AuE_Tx-7lV5R8BBg-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#74a4ff;fillColor=#CCDEFF;strokeWidth=2;fontStyle=1;gradientColor=none;" value="arr[k] = derecha[j]&lt;div&gt;&lt;div&gt;k++&lt;/div&gt;&lt;div&gt;j++&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="155" x="982.5" y="1020" as="geometry" />
         </mxCell>
         <mxCell id="vdi6AuE_Tx-7lV5R8BBg-63" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" value="V" vertex="1">
           <mxGeometry height="30" width="26" x="1070" y="980" as="geometry" />
